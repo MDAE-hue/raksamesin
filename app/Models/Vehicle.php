@@ -76,6 +76,10 @@ class Vehicle extends Model
             return $image;
         }
 
+        if (str_starts_with($image, '/')) {
+            return $image;
+        }
+
         return Storage::disk('public')->url($image);
     }
 }

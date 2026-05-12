@@ -51,8 +51,8 @@ class DatabaseSeeder extends Seeder
                 'is_featured' => true,
                 'is_verified' => true,
                 'images' => [
-                    'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1200&q=80',
-                    'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
+                    '/demo/excavator.png',
+                    '/demo/excavator.png',
                 ],
                 'specifications' => [
                     'Operating weight' => '20 ton',
@@ -73,8 +73,8 @@ class DatabaseSeeder extends Seeder
                 'is_featured' => true,
                 'is_verified' => true,
                 'images' => [
-                    'https://images.unsplash.com/photo-1590496793929-36417d3117de?auto=format&fit=crop&w=1200&q=80',
-                    'https://images.unsplash.com/photo-1517089596392-fb9a9033e05d?auto=format&fit=crop&w=900&q=80',
+                    '/demo/bulldozer.png',
+                    '/demo/bulldozer.png',
                 ],
                 'specifications' => [
                     'Blade' => 'Semi-U',
@@ -94,7 +94,7 @@ class DatabaseSeeder extends Seeder
                 'price' => 980000000,
                 'is_verified' => true,
                 'images' => [
-                    'https://images.unsplash.com/photo-1621886292650-520f76c747d6?auto=format&fit=crop&w=1200&q=80',
+                    '/demo/loader.png',
                 ],
                 'specifications' => [
                     'Bucket' => '3.1 m3',

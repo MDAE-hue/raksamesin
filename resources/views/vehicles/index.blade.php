@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="min-h-72 overflow-hidden rounded border border-white/10 bg-zinc-950">
-                <img class="h-full min-h-72 w-full object-cover" src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1200&q=80" alt="Excavator di area proyek">
+                <img class="h-full min-h-72 w-full object-cover" src="/demo/excavator.png" alt="Excavator di area proyek">
             </div>
         </div>
     </section>
