@@ -23,6 +23,10 @@
 
 ![Raksamesin vehicle detail](docs/screenshots/vehicle-detail.png)
 
+## Mobile Preview
+
+<img src="docs/screenshots/mobile-homepage.png" width="320" alt="Raksamesin mobile homepage">
+
 ## Tech Stack
 
 - **Backend:** Laravel 12
