@@ -77,6 +77,12 @@ class Vehicle extends Model
         }
 
         if (str_starts_with($image, '/')) {
+            $jpgDemo = str_replace('.png', '.jpg', $image);
+
+            if ($jpgDemo !== $image && file_exists(public_path(ltrim($jpgDemo, '/')))) {
+                return $jpgDemo;
+            }
+
             return $image;
         }
 
